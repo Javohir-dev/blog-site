@@ -1,0 +1,62 @@
+button {
+    outline: none;
+}
+
+input:focus {
+    border: none !important;
+}
+
+.number input:focus {
+    border-color: #fff !important;
+}
+
+.btn_container_shop {
+    display: flex;
+}
+
+.my_btn {
+    color: yellow;
+    border: 0;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+.my_btn:hover {
+    color: black;
+    border: 0;
+    box-shadow: none !important;
+    background-color: yellow;
+}
+
+.my_btn_red {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ff0000;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.my_btn_red:hover {
+    color: #fff;
+    box-shadow: none !important;
+    background-color: #ff0000 !important;
+}
+
+.show-cart li {
+    display: flex;
+}
+
+.shop_card {
+    width: 20rem;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+.card_flex {
+    justify-content: space-around;
+}
